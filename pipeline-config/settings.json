@@ -1,0 +1,36 @@
+{
+    "targetEnvironments": [
+        "development",
+        "testing",
+        "staging",
+        "production"
+    ],
+    "targetEnvironments_description": "typically testing and production",
+    "semverstrategy": "complete",
+    "semverstrategy_description": "complete as alias for core-prerelease-build, core, core-prerelease, core-build, core-prerelease-build",
+    "scmProvider": "github.com",
+    "scmProvider_description": "initially implemented: github.com",
+    "ciCdTool": "GitHub Actions",
+    "ciCdTool_description": "GitHub Actions, Jenkins, Azure DevOps, GitLab",
+    "uipathUipcli": {
+        "version": "23.6.8581.19168",
+        "packageName": "UiPath.UiPCLI",
+        "packageUrlTemplate": "https://uipath.pkgs.visualstudio.com/Public.Feeds/_packaging/UiPath-Official/nuget/v3/flat2/{packageName}/{version}/{packageName}.{version}.nupkg",
+        "extractPathWindows": "C:\\Program Files\\uipcli",
+        "extractPathLinux": "/opt/uipcli",
+        "adminCheck": false,
+        "forceClean": true,
+        "downloadTimeout": 30,
+        "verifyIntegrity": false
+    },
+    "envVarScope": "Process",
+    "envVarScope_description": "Scope of environment variables: 'Process', 'User', 'Machine'",
+    "featureToggles": {
+        "autoVersionIncrement": true,
+        "buildAllEntrypoints": false,
+        "allowPipelineRepoPush": false,
+        "overwriteConfigWithEnvironmentSpecific": true,
+        "enableFeatureX": false,
+        "enableFeatureY": true
+    }
+}

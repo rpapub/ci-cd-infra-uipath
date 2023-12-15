@@ -1,0 +1,10 @@
+{
+    "validKey": "valid-value",
+    "key with spaces": "value with spaces",
+    "key-with-special-characters!": "value-with-special-characters!",
+    "url": "https://example.com",
+    "semverstrategy": "complete",
+    "semverstrategy_description": "complete as alias for core-prerelease-build, core, core-prerelease, core-build, core-prerelease-build",
+    "pathWindows": "C:\\Program Files\\MyApp",
+    "pathLinux": "/opt/myapp"
+}

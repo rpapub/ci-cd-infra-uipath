@@ -1,0 +1,19 @@
+{
+    "OrchestratorUsername": "demo-cicd-user",
+    "OrchestratorPasswordCredential": "dev_password_credential",
+    "OrchestratorPasswordCredentialType": "github_secret",
+    "OrchestratorAuthTokenCredential": "dev_auth_token_credential",
+    "OrchestratorAuthTokenCredentialType": "github_secret",
+    "OrchestratorAccountName": "cprimadotnet",
+    "OrchestratorAccountForApp": "dev_account_for_app",
+    "OrchestratorApplicationId": "dev_application_id",
+    "OrchestratorApplicationSecretCredential": "dev_application_secret_credential",
+    "OrchestratorApplicationSecretCredentialType": "github_secret",
+    "OrchestratorApplicationScope": "dev_application_scope",
+    "OrchestratorFolder": "CI-CD Testing",
+    "OrchestratorUrl": "https://cloud.uipath.com",
+    "OrchestratorTenant": "CICD_Demo",
+    "disableTelemetry": true,
+    "OrchestratorLanguage": "en-US"
+}
+  
